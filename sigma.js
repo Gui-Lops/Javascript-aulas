@@ -116,3 +116,18 @@ if (((nota1 + nota2 + nota3) / 3) > 7) {
 
 //⇜-----------------------------------------------⇝//
 
+let usuario = "Ribamar"
+let senha = "Senha4469"
+
+if (senha === "Senha4469" && usuario === "Ribamar") {
+    console.log("aprovado")
+} else if (senha !== "Senha4469" && usuario === "Ribamar") {
+    console.log("senha incorreta")
+} else if (senha == "Senha4469" && usuario !== "Ribamar") {
+    console.log("Usuario incorreto")
+} else if (senha !== "Senha4469" && usuario !== "Ribamar") {
+    console.log("Usuario e senha incorretos")
+}
+
+//⇜-----------------------------------------------⇝//
+
