@@ -11,7 +11,7 @@ console.log(n >= 10);
 
 //⇜-----------------------------------------------⇝//
 
-let idade = 18
+let idade = 16
 
 if (idade >= 18) {
     console.log("Parabéns")
@@ -40,7 +40,7 @@ if (n < 50 || n > 100) {
 if (idade >= 18) {
     console.log(nome + " ,você é maior de idade")
 } else {
-    console.log(nome + " ,você não é maior de idade")
+    console.log(nome + ", você não é maior de idade")
 }
 
 //⇜-----------------------------------------------⇝//
@@ -123,7 +123,7 @@ if (senha === "Senha4469" && usuario === "Ribamar") {
     console.log("aprovado")
 } else if (senha !== "Senha4469" && usuario === "Ribamar") {
     console.log("senha incorreta")
-} else if (senha == "Senha4469" && usuario !== "Ribamar") {
+} else if (senha === "Senha4469" && usuario !== "Ribamar") {
     console.log("Usuario incorreto")
 } else if (senha !== "Senha4469" && usuario !== "Ribamar") {
     console.log("Usuario e senha incorretos")

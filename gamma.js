@@ -16,7 +16,7 @@ console.log(`O segundo valor da array numeros foi alterado para ${numeros[1]}`);
 
 let strings = ["bmw", " mercedes", " jaguar", " mclaren", " alfa romeo"];
 
-console.log(`A array strings contém ${strings.length} caracteres que são: ${strings}`);
+console.log(`A array strings contém ${strings.length} palavras que são: ${strings}`);
 
 //⇜---------------------[Crie um array com cinco números e some todos eles.]---------------------⇝//
 
